@@ -1,0 +1,129 @@
+/* Background styling */
+.signin-container {
+    background-image: url('https://via.placeholder.com/1200');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main signin box */
+  .signin-box {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+  }
+  
+  /* Left side with illustration */
+  .signin-left {
+    background-color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .signin-illustration {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Right side with form */
+  .signin-right {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .signin-right h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #f83c7b; /* Same color as Signup Page */
+  }
+  
+  .signin-right p {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  /* Form input styling */
+  .signin-form input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signin-form input:focus {
+    border-color: #f83c7b; /* Focus color consistent with Signup */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .signin-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #f83c7b; /* Button color same as Signup */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signin-btn:hover {
+    background-color: #e0326a; /* Hover color same as Signup */
+  }
+  
+  /* Footer message */
+  .signin-right p a {
+    color: #f83c7b; /* Link color same as Signup */
+    text-decoration: none;
+  }
+  
+  .signin-right p a:hover {
+    text-decoration: underline;
+  }
+  .back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green color for back button */
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .signup-form select, .signin-form select {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signup-form select:focus, .signin-form select:focus {
+    border-color: #f83c7b;
+    outline: none;
+  }
+  
+  

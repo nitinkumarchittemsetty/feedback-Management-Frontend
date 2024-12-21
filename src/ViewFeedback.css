@@ -1,0 +1,47 @@
+.view-feedback-container {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .feedback-year,
+  .feedback-semester,
+  .feedback-course {
+    margin: 10px 0;
+  }
+  
+  .year-toggle,
+  .semester-toggle {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .year-toggle.active,
+  .semester-toggle.active {
+    background-color: #0056b3;
+  }
+  
+  .feedback-course {
+    padding-left: 20px;
+  }
+  
+  .feedback-course h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .feedback-course ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback-course li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  

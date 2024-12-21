@@ -1,0 +1,29 @@
+.faculty-dashboard {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .faculty-dashboard h1 {
+    color: #4caf50;
+  }
+  
+  .faculty-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .action-btn {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #45a049;
+  }
+  
